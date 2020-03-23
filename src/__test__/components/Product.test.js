@@ -17,7 +17,7 @@ describe('<Product />', () => {
     const handleAddToCart = jest.fn();
     const wrapper = mount(
       <ProviderMock>
-        <Product 
+        <Product
           product={ProductMock}
           handleAddToCart={handleAddToCart}
         />
